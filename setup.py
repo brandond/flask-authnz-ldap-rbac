@@ -11,7 +11,7 @@ chdir(dirname(abspath(__file__)))
 setup(
     name='flask-authnz-ldap-rbac',
     version_command=('git describe --tags --dirty', 'pep440-git-full'),
-    description='Uses AuthN/AuthZ environment variables from Apache mod_authnz_ldap to enforce access controls',
+    description='Uses AuthN/AuthZ environment variables from Apache mod_authnz_ldap to enforce access controls on Flask apps',
     author='Brandon Davidson',
     author_email='brad@oatmail.org',
     url='https://github.com/brandond/flask-authnz-ldap-rbac',
