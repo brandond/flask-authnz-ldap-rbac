@@ -1,4 +1,3 @@
-import logging
 from flask import request, abort
 
 DEFAULT_GROUPS_VARIABLE = 'AUTHENTICATE_MEMBEROF'
@@ -62,5 +61,3 @@ class GroupRBAC(object):
 
         # Deny by default
         abort(403)
-
-
