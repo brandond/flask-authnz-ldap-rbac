@@ -1,5 +1,7 @@
 Flask AuthNZ LDAP RBAC
 =======================
+[![PyPI version](https://badge.fury.io/py/flask-authnz-ldap-rbac.svg)](https://badge.fury.io/py/flask-authnz-ldap-rbac)
+[![Build Status](https://travis-ci.org/brandond/flask-authnz-ldap-rbac.svg?branch=master)](https://travis-ci.org/brandond/flask-authnz-ldap-rbac)
 
 Uses AuthN/AuthZ environment variables from Apache mod_authnz_ldap to enforce access controls
 
