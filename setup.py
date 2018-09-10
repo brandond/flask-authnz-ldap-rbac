@@ -27,11 +27,6 @@ setup(
         'Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP',
     ],
     description='Uses AuthN/AuthZ environment variables from Apache mod_authnz_ldap to enforce access controls on Flask apps',
-    extras_require={
-        'dev': [
-            'setuptools-version-command',
-        ]
-    },
     include_package_data=True,
     install_requires=requirements,
     long_description=readme,
