@@ -1,2 +1,1 @@
 flask
-setuptools-version-command >= 2.2
