@@ -39,10 +39,10 @@ class GroupRBAC(object):
 
     def _authorize(self):
         if request.method in self.read_methods:
-            logging.debug('Checking auth for read')
+            logger.debug('Checking auth for read')
             self._check_membership(self.read_groups)
         elif request.method in self.write_methods:
-            logging.debug('Checking auth for write')
+            logger.debug('Checking auth for write')
             self._check_membership(self.write_groups)
         else:
             logger.debug('Auth Failed: unhandled method')
